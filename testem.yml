@@ -1,0 +1,18 @@
+framework: jasmine
+test_page: test-runner.html
+
+# A list of URLs and the corresponding
+# path within the project.  These will be
+# added to the testrunner as express.static
+# entries
+#
+# For example:
+# /testem-amd/index.html is accessible because
+# of the entry:
+#    ['/testem-amd', 'public']
+#      that is converted to
+#    app.use('/testem-amd', express.static(public))
+static_content:
+  - [/testem-amd, public]
+  - [/testem-amd/js/vendor, vendor]
+  - [/testem-amd/js/spec, spec]
