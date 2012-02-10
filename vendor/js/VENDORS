@@ -1,0 +1,23 @@
+Underscore
+----------
+http://documentcloud.github.com/underscore/
+
+Backbone.JS
+-----------
+http://documentcloud.github.com/backbone/
+
+jQuery
+------
+http://jquery.com/
+
+curl (cujo resource loader)
+---------------------------
+https://github.com/cujojs/curl
+
+TESTING
+=======
+The following libraries are used for testing.
+
+Jasmine
+-------
+http://pivotal.github.com/jasmine/
