@@ -1,8 +1,7 @@
 var curlCfg = {
-  baseUrl: '/testem-amd/js',
-	pluginPath: 'vendor/js/curl/plugin',
+  baseUrl: 'js',
   paths: {
-    'underscore': 'vendor/js/underscore/underscore-amd'
+    'underscore': 'underscore/underscore-amd'
   }
 }
 

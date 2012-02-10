@@ -1,18 +1,17 @@
 framework: jasmine
-test_page: test-runner.html
 
-# A list of URLs and the corresponding
-# path within the project.  These will be
-# added to the testrunner as express.static
-# entries
+# Note that src_files is intelligent enough
+# to removed duplicates add by latter glob patterns
+# this allows flexibility and control.  For example
+# the amd-app/config.js is loaded before the rest of
+# amd-app.
 #
-# For example:
-# /testem-amd/index.html is accessible because
-# of the entry:
-#    ['/testem-amd', 'public']
-#      that is converted to
-#    app.use('/testem-amd', express.static(public))
-static_content:
-  - [/testem-amd, public]
-  - [/testem-amd/js/vendor, vendor]
-  - [/testem-amd/js/spec, spec]
+src_files:
+  - vendor/js/curl/**/*.js
+  - public/js/amd-app/config.js
+  - public/js/amd-app/**/*.js
+  - vendor/**/backbone.js
+  - vendor/**/jquery.js
+  - vendor/**/underscore-amd.js
+  - vendor/**/underscore.js
+  - spec/**/*.js

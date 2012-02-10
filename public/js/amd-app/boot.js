@@ -1,3 +1,3 @@
-curl(curlCfg, ['app']).then(function (app){
+curl(curlCfg, ['amd-app/app']).then(function (app){
 })
 
