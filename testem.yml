@@ -1,17 +1,21 @@
 framework: jasmine
 
 # Note that src_files is intelligent enough
-# to removed duplicates add by latter glob patterns
+# to removed duplicates added by latter glob patterns
 # this allows flexibility and control.  For example
 # the amd-app/config.js is loaded before the rest of
 # amd-app.
 #
 src_files:
-  - vendor/js/curl/**/*.js
-  - public/js/amd-app/config.js
-  - public/js/amd-app/**/*.js
-  - vendor/**/backbone.js
-  - vendor/**/jquery.js
-  - vendor/**/underscore-amd.js
-  - vendor/**/underscore.js
-  - spec/**/*.js
+  - js/vendor/curl/curl.js
+  - js/amd-app/config.js
+  - js/spec/config-override.js
+  - js/spec/specs.js
+
+watch_files:
+  - js/amd-app/**/*.js
+  - js/vendor/**/backbone.js
+  - js/vendor/**/jquery.js
+  - js/vendor/**/underscore-amd.js
+  - js/vendor/**/underscore.js
+ 
