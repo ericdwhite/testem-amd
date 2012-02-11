@@ -5,7 +5,7 @@ define(['amd-app/app'], function(Mapper){
       var doubled = Mapper.double([1, 2, 3])
       expect(doubled[0]).toBe(2)
       expect(doubled[1]).toBe(4)
-      expect(doubled[2]).toBe(7)
+      expect(doubled[2]).toBe(6)
     })
   })
 })
