@@ -1,5 +1,4 @@
 define(['amd-app/app'], function(Mapper){
-  console.log(Mapper)
   describe('Mapper', function(){
     it('should double each element in the array', function(){
       var doubled = Mapper.double([1, 2, 3])
