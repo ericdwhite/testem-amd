@@ -21,3 +21,12 @@ The following libraries are used for testing.
 Jasmine
 -------
 http://pivotal.github.com/jasmine/
+
+Jasmine-Ajax
+------------
+https://github.com/pivotal/jasmine-ajax
+
+Jasmine-jQuery
+--------------
+https://github.com/velesin/jasmine-jquery
+
