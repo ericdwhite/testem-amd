@@ -8,7 +8,7 @@ define(['backbone'], function(){
 
     initialize: function(){
       this.url = '/notes/[id]'
-    },
+    }
  })
 
   return Note

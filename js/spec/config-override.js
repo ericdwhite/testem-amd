@@ -1,5 +1,5 @@
 // The test runner as a different URL root
-!(function(){
+(function(){
   var curBaseUrl = NoteApp.Configuration.curl.baseUrl
   NoteApp.Configuration.curl.baseUrl = '/runner/' + curBaseUrl
 }())
