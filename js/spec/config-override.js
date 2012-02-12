@@ -1,5 +1,8 @@
 // The test runner as a different URL root
-curlCfg['baseUrl'] = '/runner/' + curlCfg['baseUrl']
+!(function(){
+  var curBaseUrl = NoteApp.Configuration.curl.baseUrl
+  NoteApp.Configuration.curl.baseUrl = '/runner/' + curBaseUrl
+}())
 
 // Override the default jasmine.getEnv().execute() to
 // ensure that is is called after curl has loaded all the
