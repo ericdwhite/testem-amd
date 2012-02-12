@@ -1,0 +1,28 @@
+{
+   "name": "testem-amd",
+   "description": "An example AMD project for testing with testem.",
+   "keywords": [
+       "javascript",
+       "testing",
+       "amd"
+   ],
+   "version": "0.0.1",
+   "author": {
+      "name" : "Eric D. White", 
+      "email" : "eric@ericwhite.ca"
+   },
+   "repository": {
+       "type": "git",
+       "url": "https://ericdwhite@github.com/ericdwhite/testem-amd.git"
+   },
+   "bugs": {
+       "url": "https://github.com/ericdwhite/testem-amd/issues"
+   },
+   "engines": [
+       "node >= 0.6.2"
+   ],
+   "license" : "MIT",
+   "dependencies": {
+       "less": ">= 0.0.1"
+   }
+}
