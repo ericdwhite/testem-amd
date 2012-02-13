@@ -1,0 +1,16 @@
+Testing
+-------
+https://github.com/airportyh/testem
+
+Building
+--------
+lessc
+make
+
+Development
+-----------
+The following ease development.  See: make watch
+
+    watchr + dependencies.
+
+    bundle install --path ruby_modules

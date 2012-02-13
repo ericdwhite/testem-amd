@@ -1,0 +1,20 @@
+/* Standard theme */
+.border-radius (@radius) {
+  border-radius: @radius;
+  -moz-border-radius: @radius;
+  -webkit-border-radius: @radius;
+}
+
+@nice-blue: #5B83AD;
+@label-fg: white;
+
+
+/* Header */
+#header {
+  .border-radius(10px);
+	width: 480px;
+	background-color: @nice-blue;
+	color: @label-fg;
+	padding: 10px;
+}
+
